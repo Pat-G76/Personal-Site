@@ -35,7 +35,7 @@ PORT_DETAILS = [
       "name": "Personal Website",
       "Description": "The website you are currently on",
       "code_url": "https://github.com/Pat-G76/my_personal_website",
-      "website_url": "https://personal-site-u4x2.onrender.com/",
+      "website_url": "https://personal-site-5659.onrender.com/",
       "image_url": "Personal Website.png"
     }
   ]
