@@ -1,0 +1,72 @@
+
+.fa-circle {
+color: #36454f;
+}
+
+body{
+color: #FEFBEA;
+background-color: #272727;
+background-size: cover;
+padding-bottom: 5%;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 10px 100px;
+}
+
+
+div#Introduction{
+background-image: url('../images/Empty.jpg');
+height: 100vh;
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+}
+
+#Introduction h2{
+margin-top: 0;
+margin-bottom: 0;
+}
+
+h2{
+text-align: center;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+li.nav-item a:hover{
+color: #808080;
+}
+
+#Portfolio-row a.btn{
+vertical-align: middle;
+}
+
+.project-block img{
+width: 55%;
+height: 70%;
+border-radius: 25px;
+}
+
+.project-block{
+text-align: center;
+margin-bottom: 4rem;
+}
+
+#skills-tab i{
+font-size: 100px;
+}
+
+table{
+border-collapse: separate;
+border-spacing: 15px 50px;
+}
+
+#footer{
+margin-top: 6rem;
+}

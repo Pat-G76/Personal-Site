@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+
+    {% include "received_notification.html" %}
+
+    <div id="Introduction">
+        <h2>Hi there, I'm Patrick Malapane</h2>
+        <h3 class="pb-5">Full Stack Developer</h3>
+
+
+
+        <div>
+            <a href="https://www.linkedin.com/in/patrick-man-a3088a251">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+
+            <a href="https://github.com/Pat-G76">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </div>
+
+
+    </div>
+
+    <div class="container">
+
+        {% include "about.html" %}
+
+        {% include "portfolio.html" %}
+
+        {% include "Skills.html" %}
+
+        {% include "contact.html" %}
+
+        {% include "footer.html" %}
+
+    </div>
+
+{% endblock %}

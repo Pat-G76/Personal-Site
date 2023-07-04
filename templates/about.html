@@ -1,0 +1,42 @@
+
+<div class="pb-3" id="about-row">
+</div>
+
+<h2>About</h2>
+
+<div class="row active about-me">
+
+    <div class="col-md-6">
+        <img class="img-fluid" src="{{url_for('static', filename='images/about.jpg')}}" />
+    </div>
+
+    <div class="col-md-6">
+        <p>
+            I am computer science graduate who obtained a degree from the University of the Free state.
+            I have a passion for coding. I like dealing with sophisticated challenges.
+            The more challenging/complex the problem is, the more hyped and invested I become. Nothing beats the feeling of
+            finally solving the problem that has been challenging you in all aspects.
+        </p>
+
+        <br/>
+
+        <p>
+            I have escaped from tutorial hell for quite a while now and having
+            done quite a handful personal projects, I am now ready to take it to
+            the next level and apply my personal skills to benefit an
+            organisation. I am an easy person to approach and reason with so if
+            you are reading this and want to get in touch, I am more than happy to
+            hear from you.
+
+        </p>
+
+        <br/>
+
+        <a class="btn btn-success" style="font-size: 18px;"
+           href="{{ url_for('download', filename='CV.pdf') }}">
+            Resume
+        </a>
+
+    </div>
+
+</div>

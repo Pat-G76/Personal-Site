@@ -1,0 +1,21 @@
+
+<div id="portfolio-row">
+</div>
+
+<h2>Portfolio</h2>
+
+<div class="row">
+
+    {% for project in projects %}
+
+          <div class="col-lg-6 project-block pb-4">
+              <img src="{{url_for('static', filename='images/' + project.image_url)}}" alt="{{project.name}}" />
+              <h4>{{ project.name }}</h4>
+              <p>{{project.Description}}</p>
+              <a href="{{ project.code_url }}" class="btn btn-outline-success">Go to code</a>
+              <a href="{{ project.website_url }}" class="btn btn-outline-success">Go to website</a>
+          </div>
+
+    {% endfor %}
+
+</div>
